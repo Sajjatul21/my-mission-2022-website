@@ -1,0 +1,123 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.container{
+    display: flex;
+    margin-bottom: 100px;
+    margin-inline-end: 10%;
+    text-align: justify;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+h2{
+    font-size: 30px;
+    font-weight: 900;
+}
+.orange-color{
+    color: orange;
+}
+.half-width{
+    width: 50%;
+    margin-left: 10%;
+    
+    
+}
+.half-width img{
+    width: 100%;
+}
+.left-border{
+    margin-top: 250px;
+    line-height: 30px;
+    padding-left: 15px;
+    border-left: 4px solid;
+    border-image: linear-gradient(salmon, orange);
+    border-image-slice: 1;
+}
+.link-button{
+    padding: 10px 20px;
+    background-image: linear-gradient(salmon, tomato);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    color: white;
+}
+.line-distance{
+    line-height: 60px;
+}
+
+/* mission section */
+.mission-center{
+    text-align: center;
+}
+.flexible-area{
+    margin-left: 8%;
+    margin-right: 8%;
+    
+    
+}
+.flexible-item{
+    width: 30%;
+    margin-left: 3%;
+    text-align: justify;
+    border-radius: 10px;
+    
+    padding: 10px 20px;
+}
+.flexible-item img{
+    width: 60%;
+}
+#mission-background1{
+    background: rgba(79, 157, 166, 0.1);
+}
+#mission-background2{
+    background: rgba(255, 89, 89, 0.1);
+}
+#mission-background3{
+    background: #FFF4D6;
+}
+
+/* member section */
+.member-flexible{
+    width: 25%;
+    margin-left: 8%;
+    padding: 20px;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+}
+.member-flexible img{
+    width: 100%; 
+}
+
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.member-position{
+    text-align: center;
+}
+
+/* footer section  */
+footer{
+    background-color: black;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    height: 200px;
+    padding-top: 30px;
+}
+.footer-text-style{
+    color: white;
+}
+.footer-year-style{
+    color: #FF5959;
+}
+.footer-color{
+    color: #D9DBE1;
+}
+.footer-font-style{
+    font-family: 'Lobster', cursive;
+}
